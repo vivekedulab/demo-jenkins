@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload the app with star any terminal demo
+          Edit <code>src/App.js</code> we are sending push request
         </p>
         <a
           className="App-link"
