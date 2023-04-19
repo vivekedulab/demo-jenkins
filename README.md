@@ -1,4 +1,4 @@
-# Getting Started with Create React App demo commit demo chnages redmw
+# Getting Started with Create React App demo commit demo changes readme
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
