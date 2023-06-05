@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> we are sending push request mastersr mater chenges
-          Edit <code>src/App.js</code> we are sending push request vgvgvgvg jnkkbnjk devhjgbhjb vivek vivekkkkkkkk hhhhheh webhook kka conncetd
+          Edit <code>src/App.js</code> we are sending push request vgvgvgvg jnkkbnjk we have same 
         </p>
         <a
           className="App-link"
