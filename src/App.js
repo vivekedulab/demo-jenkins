@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> we are sending for jenkins
-          Edit <code>src/App.js</code> we are sending push request vgvgvgvg jnkkbnjk we have same  with dev barnch on master branchsdfsdfsdf
+          Edit <code>src/App.js</code> we are sending push request vgvgvgvg jnkkbnjk we have same  with dev barnch on master branchsdfsdfsdfsdfsd
         </p>s
         <a
           className="App-link"
