@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> we are sending push request vgvgvgvg jnkkbnjk we have same  with dev barnch
+          Edit <code>src/App.js</code> we are sending push request vgvgvgvg jnkkbnjk we have same  with dev barnch on dev barnch
         </p>
         <a
           className="App-link"
