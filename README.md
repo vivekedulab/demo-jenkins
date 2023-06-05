@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start` for start for testing readme commit some chnages accesss denied new one is required for jenkins with pipeline
+### `npm start` for start for testing readme commit some chnages accesss denied new one is required for jenkins with pipeline webhook connectd
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
