@@ -33,15 +33,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm install
+      - run: npm ci
       - run: npm run build --if-present
       - run: npm test
       - name: Send Slack notification
         uses: rtCamp/action-slack-notify@v2.1.0
-        with:
-         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
-         status: ${{ job.status }}
-         message: |
+        env:
+          INPUT_SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+          INPUT_STATUS: ${{ job.status }}
+          INPUT_MESSAGE: |
             Branch: ${{ github.ref }}
             Author: ${{ github.actor }}
             Timestamp: ${{ github.event.head_commit.timestamp }}
