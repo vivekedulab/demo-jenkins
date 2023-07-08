@@ -46,5 +46,5 @@ jobs:
             Branch: ${{ github.ref }}
             Author: ${{ github.actor }}
             Timestamp: ${{ github.event.head_commit.timestamp }}
-            Component: ${{ github.repository#*/ }}
+            Component: ${{ steps.extract_component.outputs.component }}
             Commit Message: ${{ github.event.head_commit.message }}
