@@ -40,7 +40,7 @@ jobs:
       - name: Send Slack notification
         uses: rtCamp/action-slack-notify@v2.1.0
         env:
-          INPUT_SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           INPUT_STATUS: ${{ job.status }}
           INPUT_MESSAGE: |
             Branch: ${{ github.ref }}
