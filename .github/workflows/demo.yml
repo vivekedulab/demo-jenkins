@@ -40,7 +40,7 @@ jobs:
       - name: Send Slack notification
         uses: slackapi/slack-github-action@v3.1.0
         env:
-          SLACK_WEBHOOK_URL: ${{ https://hooks.slack.com/services/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 }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         with:
           status: ${{ job.status }}
           fields: |
