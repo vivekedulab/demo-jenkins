@@ -38,9 +38,9 @@ jobs:
       - run: npm run build --if-present
       - run: npm test
       - name: Send Slack notification
-        uses: slackapi/slack-github-action@v3.1.0
+        uses: slackapi/slack-github-action@v4
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         with:
           status: ${{ job.status }}
           fields: |
